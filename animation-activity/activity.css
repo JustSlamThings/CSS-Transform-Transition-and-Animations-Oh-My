@@ -29,15 +29,20 @@ nav {
 
 @keyframes top {
   from {}
-  to {}
-}
+  to {transform: rotate(45deg); align-items: center;
+    }
+  }
 
 @keyframes middle {
-  from {}
-  to {}
+  from { }
+  to {opacity: 0 ;}
 }
 
 @keyframes bottom {
   from {}
-  to {}
+  to {transform: rotate(-45deg); bottom: auto;
+
+  align-items: center;
+  justify-content: center;
+}
 }
